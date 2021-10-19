@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-all-data-countries-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getAllDataCountries/GetAllDataCountriesWebPart.js",
+          "manifest": "./src/webparts/getAllDataCountries/GetAllDataCountriesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetAllDataCountriesWebPartStrings": "lib/webparts/getAllDataCountries/loc/{locale}.js"
+  }
+}
